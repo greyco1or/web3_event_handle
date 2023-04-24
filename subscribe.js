@@ -10,7 +10,7 @@ function Subscribe(contract_address, topic, type) {
         topics: [topic]
     },(err, result) => {
         if(err) {
-            console.error(error);
+            console.error(err);
         } else {
             console.log("######################################");
             console.log("New Transaction Event");
